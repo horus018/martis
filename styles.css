@@ -1,0 +1,139 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Poppins, Georgia, 'Times New Roman', Times, serif
+    }
+    
+    .center {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2%;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    header {
+        height: 150px;
+        padding: 20px 0;
+        z-index: 2;
+        background: black;
+        /**background: linear-gradient(50deg, rgb(155 255 255), rgb(69 65 124));*/
+    }
+    
+    .logo {
+        width: 50%;
+    }
+    
+    .logo img {
+        width: 100px;
+    }
+    
+    .menu {
+        padding-top: 30px;
+        width: 50%;
+        text-align: right;
+    }
+    
+    .menu a {
+        color: rgb(235, 222, 222);
+        text-decoration: none;
+        font-weight: 500;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    
+    .menu a:hover {
+        color: rgb(204, 60, 60);
+        transition: 0.2s;
+    }
+    
+    section.sobre {
+        position: relative;
+        height: calc(100% - 200px);
+    }
+    
+    .extras {
+        position: absolute;
+        bottom: -450px;
+        right: -500px;
+        width: 1000px;
+        height: 1000px;
+        background: linear-gradient(50deg, rgb(155 255 255), rgb(69 65 124));
+        border-radius: 50%;
+        z-index: -1;
+    }
+    
+    .martis img {
+        position: absolute;
+        width: 800px;
+        bottom: -130px;
+        right: -130px;
+        z-index: -1;
+    }
+    
+    .social-media {
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        z-index: 3;
+    }
+    
+    .social-media img {
+        display: block;
+        width: 50px;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+    
+    .social-media img:hover {
+        width: 65px;
+        transition: 0.2s;
+    }
+    
+    .conteiner {
+        margin: 20px 60px;
+    }
+    
+    section .conteiner h1 {
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    section span {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .conteiner p {
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 800px;
+        padding-top: 15px;
+    }
+    
+    .conteiner button {
+        border: 0;
+        background: linear-gradient(50deg, rgb(155 255 255), rgb(69 65 124));
+        color: black;
+        border-radius: 10px;
+        width: 140px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 40px;
+        font-weight: bold;
+    }
+    
+    .conteiner button:hover {
+        background: linear-gradient(180deg, rgb(69 65 124), rgb(155 255 255));
+        transition: 0.5s;
+    }
